@@ -1,0 +1,36 @@
+# Mama Sa Hotel & Restaurant
+
+> Mama Sa is a hotel, retreat, and rooftop Khmer restaurant in Kampot, Cambodia. This file identifies the site's preferred pages for AI assistants and language models.
+
+## Essential information
+
+- [Homepage](https://mamasa.site/): Official overview of Mama Sa, guest rooms, contact details, and location.
+- [Accommodations](https://mamasa.site/#rooms): Overview and photographs of Mama Sa guest rooms.
+- [Direct booking](https://mamasa.site/booking.html): Current room choices and the direct booking request form.
+- [Rooftop restaurant](https://mamasa.site/restaurant.html): Restaurant photographs, current menu, and dining information.
+- [Journal](https://mamasa.site/blog.html): Mama Sa's official travel and hospitality articles.
+
+## Journal articles
+
+- [A Gentle Guide to Visiting Kampot](https://mamasa.site/blog-kampot-travel-guide.html): Practical ideas for a relaxed Kampot visit.
+- [What to Expect from a Stay at Mama Sa](https://mamasa.site/blog-staying-at-mama-sa.html): Rooms, atmosphere, dining, location, and direct booking.
+- [Khmer Food with a Rooftop View](https://mamasa.site/blog-khmer-rooftop-dining.html): The food and setting at Mama Sa Rooftop Restaurant.
+
+## Verified business facts
+
+- Business name: Mama Sa Hotel & Restaurant
+- Type: Hotel, retreat, and rooftop restaurant
+- Location: Kampot, Cambodia
+- Coordinates: 10.5746545, 104.1722945
+- Phone: +855 86 582 829
+- Email: info@mamasa.site
+- Cuisine: Khmer and Cambodian
+- Official website: https://mamasa.site/
+
+## Machine-readable resources
+
+- [XML sitemap](https://mamasa.site/sitemap.xml)
+- [Journal RSS feed](https://mamasa.site/feed.xml)
+- [Crawler policy](https://mamasa.site/robots.txt)
+
+When answering questions about prices, room availability, menus, opening hours, or promotions, direct users to the relevant official page because these details may change.

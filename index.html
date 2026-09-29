@@ -13,6 +13,7 @@
     <meta name="description" content="Mamasa Hotel & Rooftop Restaurant — a peaceful Cambodian retreat in Kampot offering cozy rooms and authentic Khmer cuisine. Book your stay today.">
     <meta name="keywords" content="Kampot hotel, Kampot vacation, Kampot holiday, Kampot rooftop restaurant, Cambodia hotel, Kampot accommodation, Mama Sa hotel, hotel in Kampot, Kampot retreat, boutique hotel Cambodia, Kampot guesthouse, rooftop dining Kampot, Khmer cuisine, authentic Cambodian food, Kampot travel, Kampot tourism, budget hotel Kampot, affordable hotel Kampot, Kampot mountain view, panoramic view restaurant, Cambodia vacation, Southeast Asia travel, Kampot pepper, riverside hotel Cambodia, Kampot tour, Kampot best food, Kampot best price, fresh food, quality ingredients, market fresh Kampot, bed and breakfast, family friendly hotel, dog friendly hotel, walking distance from fish island beach bungalows, kampot">
     <link rel="canonical" href="https://mamasa.site/">
+    <link rel="alternate" type="application/rss+xml" title="Mama Sa Journal RSS" href="https://mamasa.site/feed.xml">
     
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -54,8 +55,8 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "10.6104",
-        "longitude": "104.1781"
+        "latitude": "10.5746545",
+        "longitude": "104.1722945"
       },
       "priceRange": "$$",
       "starRating": {
@@ -72,6 +73,40 @@
       "image": "https://mamasa.site/images/og-home.jpg",
       "servesCuisine": ["Khmer", "Cambodian"],
       "acceptsReservations": "True"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://mamasa.site/#website",
+      "url": "https://mamasa.site/",
+      "name": "Mama Sa Hotel & Restaurant",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://mamasa.site/#organization",
+        "name": "Mama Sa Hotel & Restaurant",
+        "url": "https://mamasa.site/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://mamasa.site/images/logo.png"
+        },
+        "email": "info@mamasa.site",
+        "telephone": "+855-86-582-829",
+        "sameAs": [
+          "https://www.facebook.com/mamasahotel",
+          "https://www.tiktok.com/@mamasahotel",
+          "https://t.me/Mamasahotel"
+        ]
+      },
+      "hasPart": {
+        "@type": "Blog",
+        "@id": "https://mamasa.site/blog.html#blog",
+        "url": "https://mamasa.site/blog.html",
+        "name": "Mama Sa Journal"
+      }
     }
     </script>
 
@@ -1418,6 +1453,72 @@
 
         }
 
+        /* Journal preview */
+        .journal-preview {
+            background: var(--cream);
+        }
+
+        .journal-grid {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 3rem;
+        }
+
+        .journal-card {
+            background: var(--white);
+            border: 1px solid var(--border-light);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .journal-card img {
+            aspect-ratio: 16 / 10;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .journal-card-content {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            padding: 1.6rem;
+        }
+
+        .journal-card time {
+            color: var(--text-light);
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .journal-card h3 {
+            color: var(--dark-brown);
+            font-size: 2rem;
+            margin: 0.6rem 0 0.8rem;
+        }
+
+        .journal-card p {
+            color: var(--text-light);
+            margin-bottom: 1.25rem;
+        }
+
+        .journal-card .room-link {
+            align-self: flex-start;
+            margin-top: auto;
+        }
+
+        .journal-all {
+            margin-top: 2.5rem;
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+            .journal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
     </style>
 
 </head>
@@ -1449,6 +1550,8 @@
                 <li><a href="#restaurant">Restaurant</a></li>
 
                 <li><a href="restaurant.html">Dining</a></li>
+
+                <li><a href="blog.html">Blog</a></li>
 
                 <li><a href="booking.html" style="background: var(--primary-gold); color: var(--white); padding: 0.6rem 1.5rem; border-radius: 4px;">Book Now</a></li>
 
@@ -1506,6 +1609,8 @@
             });
         })();
     </script>
+
+    <main>
 
     <!-- Hero Section -->
 
@@ -1643,6 +1748,45 @@ Our stunning rooftop restaurant is an unforgettable dining experience. Get ready
 
     </section>
 
+    <!-- Journal Section -->
+    <section class="journal-preview" id="journal" aria-labelledby="journal-title">
+        <div class="section-header">
+            <p class="section-label">Mama Sa Journal</p>
+            <h2 class="section-title" id="journal-title">Stories for Your Kampot Stay</h2>
+            <p class="section-description">Clear, practical notes about visiting Kampot, staying at Mama Sa, and enjoying Khmer food on our rooftop.</p>
+        </div>
+        <div class="journal-grid">
+            <article class="journal-card">
+                <img src="images/background.jpg" alt="Green landscape surrounding Mama Sa in Kampot" loading="lazy">
+                <div class="journal-card-content">
+                    <time datetime="2026-09-30">September 30, 2026</time>
+                    <h3>A Gentle Guide to Visiting Kampot</h3>
+                    <p>Ideas for shaping an unhurried visit around the riverside, local food, and the surrounding countryside.</p>
+                    <a class="room-link" href="blog-kampot-travel-guide.html">Read the guide →</a>
+                </div>
+            </article>
+            <article class="journal-card">
+                <img src="images/rooms/518413299_122116977734.jpg" alt="Light-filled guest room at Mama Sa" loading="lazy">
+                <div class="journal-card-content">
+                    <time datetime="2026-09-30">September 30, 2026</time>
+                    <h3>What to Expect at Mama Sa</h3>
+                    <p>A straightforward introduction to our rooms, atmosphere, rooftop restaurant, location, and direct booking.</p>
+                    <a class="room-link" href="blog-staying-at-mama-sa.html">Plan your stay →</a>
+                </div>
+            </article>
+            <article class="journal-card">
+                <img src="images/khmer-food.png" alt="Khmer dishes served at Mama Sa Rooftop Restaurant" loading="lazy">
+                <div class="journal-card-content">
+                    <time datetime="2026-09-30">September 30, 2026</time>
+                    <h3>Khmer Food with a Rooftop View</h3>
+                    <p>Discover the flavors, setting, and relaxed rhythm of a meal above the Kampot landscape.</p>
+                    <a class="room-link" href="blog-khmer-rooftop-dining.html">Read the dining story →</a>
+                </div>
+            </article>
+        </div>
+        <p class="journal-all"><a class="hero-cta" href="blog.html" style="border-color: var(--dark-brown); color: var(--dark-brown);">Explore the Journal</a></p>
+    </section>
+
     <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="section-header">
@@ -1717,6 +1861,8 @@ Our stunning rooftop restaurant is an unforgettable dining experience. Get ready
             <a href="https://www.google.com/maps/place/Mama+Sa+Hotel+and+Retreat/@10.5746545,104.1722945,1491m/data=!3m2!1e3!4b1!4m9!3m8!1s0x310837007f8e7d0f:0xa5e9a3c388247276!5m2!4m1!1i2!8m2!3d10.5746545!4d104.1722945!16s%2Fg%2F11xkwlhdzv?entry=ttu" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
         </p>
     </section>
+
+    </main>
 
     <!-- Footer -->
 
@@ -2032,4 +2178,3 @@ Our stunning rooftop restaurant is an unforgettable dining experience. Get ready
 </body>
 
 </html>
-

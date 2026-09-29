@@ -8,6 +8,8 @@ Static website for Mama Sa Hotel & Restaurant in Kampot, Cambodia.
 - `booking.html` - direct room booking page
 - `restaurant.html` - rooftop restaurant page
 - `offers.html` - Tourist.com promotional landing page
+- `blog.html` - Mama Sa Journal index
+- `blog-*.html` - individual travel, accommodation, and dining articles
 
 ## Assets
 
@@ -23,6 +25,9 @@ Static website for Mama Sa Hotel & Restaurant in Kampot, Cambodia.
   - `images/og-booking.png`
   - `images/og-restaurant.png`
   - `images/og-offers.png`
+- `sitemap.xml` lists all public pages, including journal articles
+- `feed.xml` provides an RSS feed for the journal
+- `llms.txt` summarizes authoritative pages and verified business facts for AI assistants
 
 ## Local Preview
 

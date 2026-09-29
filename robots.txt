@@ -6,3 +6,6 @@ Disallow: /cgi-bin/
 Disallow: /BU/
 
 Sitemap: https://mamasa.site/sitemap.xml
+
+# Plain-text site summary for AI assistants and language models
+# https://mamasa.site/llms.txt

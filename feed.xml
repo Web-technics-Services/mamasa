@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mama Sa Journal</title>
+    <link>https://mamasa.site/blog.html</link>
+    <description>Kampot travel ideas, Mama Sa stay information, and Khmer rooftop dining stories.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Sep 2026 00:31:40 +0700</lastBuildDate>
+    <atom:link href="https://mamasa.site/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://mamasa.site/images/logo.png</url>
+      <title>Mama Sa Journal</title>
+      <link>https://mamasa.site/blog.html</link>
+    </image>
+    <item>
+      <title>A Gentle Guide to Visiting Kampot</title>
+      <link>https://mamasa.site/blog-kampot-travel-guide.html</link>
+      <guid isPermaLink="true">https://mamasa.site/blog-kampot-travel-guide.html</guid>
+      <pubDate>Wed, 30 Sep 2026 00:31:40 +0700</pubDate>
+      <description>Ideas for an unhurried Kampot stay around riverside time, local food, the surrounding countryside, and a comfortable base.</description>
+    </item>
+    <item>
+      <title>What to Expect from a Stay at Mama Sa</title>
+      <link>https://mamasa.site/blog-staying-at-mama-sa.html</link>
+      <guid isPermaLink="true">https://mamasa.site/blog-staying-at-mama-sa.html</guid>
+      <pubDate>Wed, 30 Sep 2026 00:31:40 +0700</pubDate>
+      <description>A straightforward introduction to Mama Sa's rooms, atmosphere, rooftop restaurant, location, and direct booking process.</description>
+    </item>
+    <item>
+      <title>Khmer Food with a Rooftop View</title>
+      <link>https://mamasa.site/blog-khmer-rooftop-dining.html</link>
+      <guid isPermaLink="true">https://mamasa.site/blog-khmer-rooftop-dining.html</guid>
+      <pubDate>Wed, 30 Sep 2026 00:31:40 +0700</pubDate>
+      <description>The Khmer flavors, panoramic setting, and relaxed dining experience at Mama Sa Rooftop Restaurant in Kampot.</description>
+    </item>
+  </channel>
+</rss>
